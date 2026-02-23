@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "async-sqs-consumer"
-version = "0.1.0"
+version = "0.1.1"
 description = "Async SQS consumer with MessageBus dispatch"
 authors = [
     {name = "Vlad Boiko", email = "devduo.project@gmail.com"},
