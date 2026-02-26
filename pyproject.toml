@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "async-sqs-consumer"
+name = "async-consumer"
 version = "0.1.1"
-description = "Async SQS consumer with MessageBus dispatch"
+description = "Async consumer with MessageBus dispatch"
 authors = [
     {name = "Vlad Boiko", email = "devduo.project@gmail.com"},
 ]
@@ -16,4 +16,4 @@ dependencies = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/async_sqs_consumer"]
+packages = ["src/async_consumer"]

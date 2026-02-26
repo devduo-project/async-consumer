@@ -1,16 +1,16 @@
-# async-sqs-consumer
+# async-consumer
 
-Async SQS consumer with MessageBus dispatch for Python 3.12+.
+Async consumer with MessageBus dispatch for Python 3.12+.
 
 ## Installation
 
 ### pip
 ```bash
-pip install "async-sqs-consumer @ git+https://github.com/org/async-sqs-consumer.git@v0.1.0"
+pip install "async-consumer @ git+https://github.com/devduo-project/async-consumer.git@v0.1.0"
 ```
 ### PDM
 ```bash
-pdm add "async-sqs-consumer @ git+https://github.com/org/async-sqs-consumer.git@v0.1.0"
+pdm add "async-consumer @ git+https://github.com/devduo-project/async-consumer.git@v0.1.0"
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ import asyncio
 import logging
 from dataclasses import dataclass
 
-from async_sqs_consumer import SqsConsumer, MessageBus, SqsService, Event
+from async_consumer import SqsConsumer, MessageBus, SqsService, Event
 
 
 # Define your event

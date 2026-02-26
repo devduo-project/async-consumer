@@ -1,4 +1,4 @@
-"""async-sqs-consumer — Async SQS consumer with MessageBus dispatch."""
+"""async-consumer — Async consumer with MessageBus dispatch."""
 
 from ._types import MessageHandler
 from .consumer import SqsConsumer
