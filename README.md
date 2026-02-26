@@ -6,11 +6,11 @@ Async consumer with MessageBus dispatch for Python 3.12+.
 
 ### pip
 ```bash
-pip install "async-consumer @ git+https://github.com/devduo-project/async-consumer.git@v0.1.0"
+pip install "async-consumer @ git+https://github.com/devduo-project/async-consumer.git"
 ```
 ### PDM
 ```bash
-pdm add "async-consumer @ git+https://github.com/devduo-project/async-consumer.git@v0.1.0"
+pdm add "async-consumer @ git+https://github.com/devduo-project/async-consumer.git"
 ```
 
 ## Usage
